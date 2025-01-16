@@ -1,0 +1,63 @@
+/* Regla 1 - Cambio de todo el tipo de fuente del index */
+* {
+    font-family: 'Montserrat', sans-serif; 
+} 
+/* Regla 2 - Cambio de margen y relleno de body  */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+/* Regla 3 - Cambio h1 color,subrayado y alineado */ 
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+    
+}
+/* Regla 4 - Cambio de color de elementos de la clase selector */
+.selector {
+    color: lightcyan;
+}
+/* Regla 5 - Cambio de relleno,borde y esquinas de elementos de la clase selectors */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+/* Regla 6 - Cambio de color de elementos con id universal */
+#universal {
+    color:  lightgoldenrodyellow;
+}
+/* Regla 7 - Cambio de color de fondo, rellleno y esquinas de elementos con id y clase de h2 */
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+/* Regla 8 - Cambio de color de fondo y de texto de los elementos span */
+span {
+    font-weight: 900;
+    color: white;
+    background-color: black;
+
+}
+/*Regla 9 - text-decoration de los elementos a e hijos de elemento li */
+li > a {
+    text-decoration: none;
+}
+/* Regla 10 - Cambio de color de fondo, relleno y esquinas de los elementos h3 */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+/* Regla 11 - Cambio de anchura de elementos div con descendientes de un id gallery */
+#gallery div {
+    width: 100%;
+}
+/* Regla 12 - Cambio de ancho,borde y esquinas de elementos img */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
